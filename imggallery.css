@@ -1,0 +1,33 @@
+h1{
+    font-family: algerian;
+    font-size: 40px;
+    color: rgb(28, 113, 110);
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+img{
+    width: 300px; height: 200px;
+    border-radius: 10px;
+}
+
+img:hover{
+    transform: scale(1.5) ;
+    transition: .5s transform;
+   
+
+}
+.gallery{
+    display: block;
+    float: left;
+    overflow: hidden;
+    padding: 10px;
+
+}
+main{
+    margin-left: 100px;
+    
+}
+div
+{
+    border: 5px solid rgb(28, 2, 60);
+}
