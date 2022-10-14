@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(160, 224, 224);
+        }
+        div{
+            text-transform: uppercase ;
+            font-family: algerian;
+        }
+        p{
+            font-size: 200px;
+            margin-left: 450px;
+            animation-name: h1; 
+            animation-duration: 2s;
+            animation-delay: 1s;
+            animation-iteration-count: infinite;
+            /* animation-direction: reverse;          */
+        }
+        #div {animation-timing-function: ease;}
+
+        @keyframes h1{
+            0%   {color:red;}
+  25%  {color:yellow;}
+  50%  {color:blue; }
+  75%  {color:green;}
+  100% {color:red;}
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+       <p> rahul </p> 
+    </div>
+</body>
+</html>
